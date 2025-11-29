@@ -1,0 +1,39 @@
+<web-app>
+
+  <servlet>
+     <servlet-name>RegisterServlet</servlet-name>
+     <servlet-class>RegisterServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>RegisterServlet</servlet-name>
+     <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+     <servlet-name>LoginServlet</servlet-name>
+     <servlet-class>LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>LoginServlet</servlet-name>
+     <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+     <servlet-name>ExamServlet</servlet-name>
+     <servlet-class>ExamServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>ExamServlet</servlet-name>
+     <url-pattern>/ExamServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+     <servlet-name>RegisterExamServlet</servlet-name>
+     <servlet-class>RegisterExamServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+     <servlet-name>RegisterExamServlet</servlet-name>
+     <url-pattern>/RegisterExamServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
